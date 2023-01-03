@@ -1,0 +1,26 @@
+<script language="JavaScript" type="text/javascript">
+<!--
+
+var numPinestraw, numPineBark;
+var pinestrawCost, pineBarkCost, totalCost;
+
+//Assumption: Constants
+var baleOfPinestraw = 2;
+var yardsOfPineBark = 4;
+
+//Input
+numPinestraw = prompt("How many bales of pinestraw?", "");
+numPineBark = prompt("How many yards of pine bark?", "");
+
+//Calculations
+pinestrawCost = numPinestraw * baleOfPinestraw;
+pineBarkCost = numPineBark * yardsOfPineBark;
+totalCost = pinestrawCost + pineBarkCost;
+
+//Output
+document.write("Cost of pinestraw: $" + pinestrawCost.toFixed(2));
+document.write("<br>Cost of pine bark: $" + pineBarkCost.toFixed(2));
+document.write("<br>Total cost: $" + totalCost.toFixed(2));
+
+//-->
+</script>
